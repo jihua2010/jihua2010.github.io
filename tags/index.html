@@ -98,7 +98,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -180,61 +180,51 @@
       
         
         <li class="menu-item menu-item-简介">
-          <a href="/" rel="section">
+          <a href="/Introduction/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             简介
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-精品推荐">
-          <a href="/recommend/" rel="section">
+        <li class="menu-item menu-item-捷径">
+          <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
-            精品推荐
+            捷径
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-视频">
-          <a href="/video/" rel="section">
+        <li class="menu-item menu-item-常见问题">
+          <a href="/problem/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
-            视频
+            常见问题
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-音乐">
-          <a href="/music/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-music"></i> <br>
-            
-            音乐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-实用工具">
-          <a href="/utility/" rel="section">
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
-            实用工具
+            标签
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-照片">
-          <a href="/photo/" rel="section">
+        <li class="menu-item menu-item-url-schema">
+          <a href="/urlschema/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-camera"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
-            照片
+            URL Schema
           </a>
         </li>
       
@@ -378,7 +368,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -490,6 +480,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
