@@ -348,6 +348,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/17/recommend/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/17/recommend/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -478,6 +488,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/17/music/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/17/music/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -610,6 +630,16 @@ https://www.icloud.com/shortcuts/ce4f89e80cb7428ab82db298adec17d
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/17/photo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/17/photo/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -740,6 +770,16 @@ https://www.icloud.com/shortcuts/07e7003f74b74216920b647eeb
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/17/read/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/17/read/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -873,6 +913,16 @@ https://www.icloud.com/shortcuts/df85acb1585e481fa8d9de965743b046
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/17/utility/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/17/utility/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -1004,6 +1054,16 @@ https://www.icloud.com/shortcuts/de7f95054f414776b0aa93c91bd06604
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/17/video/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/17/video/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -1364,6 +1424,28 @@ https://www.icloud.com/shortcuts/f29d4a33f2734b3b8f790ea5d
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'EdnppaCDthMP6PlpOh3OMPRU-gzGzoHsz',
+        appKey: 'e9EMKeCRn3qaStsP6JJ5gUs8',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
